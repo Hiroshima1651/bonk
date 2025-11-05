@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IdeiaX - Marketplace de Ideias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>💡 IdeiaX</h1>
+        <p>O marketplace onde ideias ganham vida</p>
+    </div>
+
+    <div class="container">
+        <div class="tabs" id="tabs"></div>
+        <div class="ideas-grid" id="ideasGrid"></div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <h2 id="modalTitle"></h2>
+            <p id="modalText"></p>
+            <div id="modalExtra"></div>
+            <div class="modal-actions">
+                <button class="btn btn-close" onclick="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
